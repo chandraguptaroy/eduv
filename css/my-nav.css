@@ -51,7 +51,7 @@ label{display: none;}
         display: block;
     }
     nav .menubtn i{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 30px;
     }
     #click:checked ~ .menubtn i:before{
@@ -79,6 +79,7 @@ label{display: none;}
     nav ul li a{
         font-size: 20px;
         display: block;
+        color: white;
     }         
 }
 @media (max-width:520px){
