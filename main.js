@@ -1,17 +1,20 @@
 class MyHeader extends HTMLElement {
     connectedCallback(){
-        this.innerHTML=`
+        this.innerHTML= `
+        <nav>
+            <div class="logo"><a class="nav-title" href="/">EDUCATION VALLEY</a></div>
+            <input type="checkbox" id="click">
+            <label for="click" class="menubtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+                <li><a class="" href="/blog/">BLOG</a></li>
+                <li><a class="" href="/work/">WORK</a></li>
+                <li><a class="" href="/about/">ABOUT</a></li>
+            </ul>
+        </nav>
         <header>
-            <a href="index.html"><img src="#">
-            </a>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html">Notes</a></li>
-                    <li><a href="index.html">About</a></li>
-                </ul>
-            </nav>
-        </header>
+        </header> 
         `
     }
 }
