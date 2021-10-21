@@ -8,9 +8,9 @@ class MyHeader extends HTMLElement {
                 <i class="fas fa-bars"></i>
             </label>
             <ul>
-                <li><a class="" href="/blog/">BLOG</a></li>
-                <li><a class="" href="/work/">WORK</a></li>
-                <li><a class="" href="/about/">ABOUT</a></li>
+                <li><a class="/index.html#notes" href="/blog/">Notes</a></li>
+                <li><a class="" href="/work/">Java</a></li>
+                <li><a class="" href="/about/">About</a></li>
             </ul>
         </nav>
         <header>
